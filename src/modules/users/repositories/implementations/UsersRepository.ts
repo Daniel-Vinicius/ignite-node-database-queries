@@ -6,7 +6,7 @@ import { User } from '../../entities/User';
 import { IUsersRepository } from '../IUsersRepository';
 
 type Users_games_gamesReturn =
-  Array<{ userId: string, gamesId: string }>
+  Array<{ usersId: string, gamesId: string }>
 
 
 export class UsersRepository implements IUsersRepository {
